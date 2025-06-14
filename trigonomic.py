@@ -1,0 +1,10 @@
+import math
+angle_degrees=float(input("Enter the angle in degrees"))
+angle_radians=math.radians(angle_degrees)
+sine_value=math.sin(angle_radians)
+cosine_value=math.cos(angle_radians)
+tangent_value=math.tan(angle_radians)
+print("the angle is"+str(angle_radians))
+print("Sine="+str(sine_value))
+print("Cosine="+str(cosine_value))
+print("tangent="+str(tangent_value))
